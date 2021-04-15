@@ -1,0 +1,147 @@
+body {
+  background-color: $colorGrey;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.main-div1 {
+  background-color: $headerFooterColor;
+  .container {
+    padding: 0px 0px 0px !important;
+  }
+  .my-navbar {
+    padding: 30px 0px 40px 0px;
+  }
+  .main-div1-text {
+    color: $bodySecondaryTextColor;
+    padding-left: 50px;
+    font-size: 14px;
+  }
+}
+
+.main-div2 {
+  background-color: $headerFooterColor;
+  text-align: center;
+  height: 300px;
+  .container {
+    .hero-image {
+      width: 100%;
+    }
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+    padding: 0px 0px 0px !important;
+  }
+  .hero-content {
+    background-color: $colorBlack;
+    height: 90px;
+    width: auto;
+  }
+  .content {
+    color: $bodyPrimaryTextColor;
+    font-size: 24px;
+    padding: 30px;
+    margin-top: -1%;
+  }
+}
+
+.main-div2 {
+  margin: 0px;
+  .container {
+    padding: 0px 0px 0px !important;
+  }
+  .inner-main-div1 {
+    padding: 40px 0px;
+  }
+  .text-header {
+    color: $bodyPrimaryTextColor;
+    font-size: 30px;
+    padding: 0px 0px 25px;
+    text-align: left;
+  }
+  .text-content {
+    color: $bodySecondaryTextColor;
+    padding: 0px 0px 25px;
+    text-align: left;
+    line-height: 30px;
+  }
+  .btn1-alingment {
+    text-align: left;
+    .button-2 {
+      @include buttons;
+    }
+  }
+  .button-1 {
+    background-color: $colorBlack;
+    padding: 12px 25px;
+    border-top: $bodyPrimaryTextColor;
+    border-width: 2px;
+    color: $bodyPrimaryTextColor;
+  }
+  hr {
+    background-color: $colorBlack;
+    margin: 0px;
+  }
+  .inner-div-1 {
+    .img1 {
+      padding: 40px 0px 30px;
+      vertical-align: middle;
+    }
+    .alingment {
+      text-align: left;
+    }
+    .button-2 {
+      @include buttons;
+    }
+    .text-header-1 {
+      font-size: 20px;
+      padding: 0px 0px 10px;
+      color: $bodyPrimaryTextColor;
+      text-align: left;
+    }
+    hr {
+      background-color: $colorBlack;
+      margin: 0px;
+    }
+    .text-content-1 {
+      font-size: 16px;
+      padding: 0px 0px 20px;
+      color: $bodySecondaryTextColor;
+      text-align: left;
+    }
+    .row {
+      padding-bottom: 40px;
+    }
+    .paddinghead {
+      padding: 8% 0px 0px;
+    }
+    .img2 {
+      padding-right: 70px;
+    }
+  }
+}
+.main-div3 {
+  background-color: $headerFooterColor;
+  .inner-div3 {
+    padding: 50px 0px;
+  }
+  .div-pading3 {
+    padding-bottom: 30px;
+  }
+  .img-padding {
+    padding-left: 20px;
+  }
+  .footer {
+    text-align: center;
+    color: $bodySecondaryTextColor;
+    .title-section {
+      font-size: 14px;
+      padding-top: 30px;
+    }
+    .address-section {
+      font-size: 12px;
+      padding: 0px 0px 15px;
+    }
+    .mail-section {
+      font-size: 12px;
+    }
+  }
+}

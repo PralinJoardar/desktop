@@ -1,0 +1,9 @@
+$textColor: rgb(0, 0, 0);
+$bgColor:rgb(255, 213, 221);
+$textSize:30px;
+
+@mixin para3Mixin($fontSize,$color:orange){
+    color:$color;
+    font-size: $fontSize;
+    font-weight: bold;
+}

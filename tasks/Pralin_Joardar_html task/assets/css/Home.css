@@ -1,0 +1,157 @@
+/* navbar */
+
+.bg-navbar {
+    background-color: #021639;
+}
+
+.nav-text {
+    color: white;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    padding-right: 64px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+#our-services {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 132px;
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    width: 100%;
+    height: 592px;
+}
+
+#p1 {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 42px;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+#p2 {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    margin-top: -2%;
+}
+
+#p3 {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    margin-top: -1%;
+}
+
+.body-content {
+    background-color: #e9e9e9;
+    height: 750px;
+}
+
+.left-arrow {
+    background-image: url(../images/arr-left.png);
+    height: 50px;
+    width: 34px;
+    margin-top: 150px;
+    padding: 15px;
+}
+
+.right-arrow {
+    background-image: url(../images/arr-right.png);
+    height: 50px;
+    width: 34px;
+    margin-top: 150px;
+}
+
+.crd-title {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: #2c63a0;
+}
+
+.crd-text {
+    font-family: "Myriad Hebrew", Myriad Hebrew, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.under-lined {
+    text-decoration: underline;
+}
+
+.card-shadow {
+    filter: drop-shadow(0.6rem 0.6rem 1rem rgba(141, 141, 146, 0.8));
+}
+
+.quick-en {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 92px;
+}
+
+
+/* form css */
+
+.inp-size {
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-size: 18px;
+}
+
+.msg-size {
+    height: 80px;
+}
+
+.btn-size {
+    padding: 10px 10px;
+    width: 120px;
+    font-size: 18px;
+    background-color: #0256a7;
+    color: white;
+}
+
+.form-main {
+    background-color: #e9e9e9;
+    padding: 50px 50px;
+    border: #918787;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
+/* footer */
+
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: #0058a4;
+}
+
+.footer-txt {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.ftr-txt {
+    padding-top: 25px;
+}

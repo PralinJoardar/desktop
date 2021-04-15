@@ -1,0 +1,190 @@
+body {
+  background-color: #333333;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.main-div1 {
+  background-color: #1d1d1d;
+}
+
+.main-div1 .container {
+  padding: 0px 0px 0px !important;
+}
+
+.main-div1 .my-navbar {
+  padding: 30px 0px 40px 0px;
+}
+
+.main-div1 .main-div1-text {
+  color: #afafaf;
+  padding-left: 50px;
+  font-size: 14px;
+}
+
+.main-div2 {
+  background-color: #1d1d1d;
+  text-align: center;
+  height: 300px;
+}
+
+.main-div2 .container {
+  padding: 0px 0px 0px !important;
+}
+
+.main-div2 .container .hero-image {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .main-div2 .container {
+    width: 100%;
+  }
+}
+
+.main-div2 .hero-content {
+  background-color: #000000;
+  height: 90px;
+  width: auto;
+}
+
+.main-div2 .content {
+  color: #ffffff;
+  font-size: 24px;
+  padding: 30px;
+  margin-top: -1%;
+}
+
+.main-div2 {
+  margin: 0px;
+}
+
+.main-div2 .container {
+  padding: 0px 0px 0px !important;
+}
+
+.main-div2 .inner-main-div1 {
+  padding: 40px 0px;
+}
+
+.main-div2 .text-header {
+  color: #ffffff;
+  font-size: 30px;
+  padding: 0px 0px 25px;
+  text-align: left;
+}
+
+.main-div2 .text-content {
+  color: #afafaf;
+  padding: 0px 0px 25px;
+  text-align: left;
+  line-height: 30px;
+}
+
+.main-div2 .btn1-alingment {
+  text-align: left;
+}
+
+.main-div2 .btn1-alingment .button-2 {
+  background-color: #1d1d1d;
+  border-top: #ffffff;
+  padding: 12px 25px;
+  border-width: 2px;
+  color: #ffffff;
+}
+
+.main-div2 .button-1 {
+  background-color: #000000;
+  padding: 12px 25px;
+  border-top: #ffffff;
+  border-width: 2px;
+  color: #ffffff;
+}
+
+.main-div2 hr {
+  background-color: #000000;
+  margin: 0px;
+}
+
+.main-div2 .inner-div-1 .img1 {
+  padding: 40px 0px 30px;
+  vertical-align: middle;
+}
+
+.main-div2 .inner-div-1 .alingment {
+  text-align: left;
+}
+
+.main-div2 .inner-div-1 .button-2 {
+  background-color: #1d1d1d;
+  border-top: #ffffff;
+  padding: 12px 25px;
+  border-width: 2px;
+  color: #ffffff;
+}
+
+.main-div2 .inner-div-1 .text-header-1 {
+  font-size: 20px;
+  padding: 0px 0px 10px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.main-div2 .inner-div-1 hr {
+  background-color: #000000;
+  margin: 0px;
+}
+
+.main-div2 .inner-div-1 .text-content-1 {
+  font-size: 16px;
+  padding: 0px 0px 20px;
+  color: #afafaf;
+  text-align: left;
+}
+
+.main-div2 .inner-div-1 .row {
+  padding-bottom: 40px;
+}
+
+.main-div2 .inner-div-1 .paddinghead {
+  padding: 8% 0px 0px;
+}
+
+.main-div2 .inner-div-1 .img2 {
+  padding-right: 70px;
+}
+
+.main-div3 {
+  background-color: #1d1d1d;
+}
+
+.main-div3 .inner-div3 {
+  padding: 50px 0px;
+}
+
+.main-div3 .div-pading3 {
+  padding-bottom: 30px;
+}
+
+.main-div3 .img-padding {
+  padding-left: 20px;
+}
+
+.main-div3 .footer {
+  text-align: center;
+  color: #afafaf;
+}
+
+.main-div3 .footer .title-section {
+  font-size: 14px;
+  padding-top: 30px;
+}
+
+.main-div3 .footer .address-section {
+  font-size: 12px;
+  padding: 0px 0px 15px;
+}
+
+.main-div3 .footer .mail-section {
+  font-size: 12px;
+}
+/*# sourceMappingURL=custom.css.map */

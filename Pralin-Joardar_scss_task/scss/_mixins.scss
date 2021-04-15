@@ -1,0 +1,11 @@
+@mixin buttons() {
+  background-color: $colorBlack;
+  border-top: $bodyPrimaryTextColor;
+  padding: 12px 25px;
+  border-width: 2px;
+  color: $bodyPrimaryTextColor;
+  @media (min-width: 1199px) and (max-width: 1399px) {
+    padding: 9px 22px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAA;EACA,KAAK,ECHG,KAAY;EDIpB,gBAAgB,ECHX,OAAkB;EDIvB,SAAS,ECHH,IAAI;CDIb;;AACD,AAAA,MAAM,CAAA;EAEF,KAAK,EADM,KAAK;CAEnB;;AACD,AAAA,MAAM,CAAA;EACF,KAAK,ECZG,KAAY;CDavB;;AAED,AAAA,MAAM,EAGN,MAAM,CAHA;ECVF,KAAK,EDWoB,IAAI;ECV7B,SAAS,EDUW,IAAI;ECTxB,WAAW,EAAE,IAAI;CDUpB",
+    "sources": [
+        "../sass/index.scss",
+        "../sass/_globals.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

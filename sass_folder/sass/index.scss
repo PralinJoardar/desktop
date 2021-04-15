@@ -1,0 +1,21 @@
+@import "globals";
+
+body{
+    color: $textColor;
+    background-color: $bgColor;
+    font-size: $textSize;
+}
+#para1{
+    $textColor:green;
+    color:$textColor
+}
+#para2{
+    color: $textColor ;
+}
+
+#para3{
+    @include para3Mixin(60px,grey);
+}
+#para4{
+    @extend #para3;
+}

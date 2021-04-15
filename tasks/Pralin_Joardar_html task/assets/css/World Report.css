@@ -1,0 +1,129 @@
+/* navbar */
+
+.bg-navbar {
+    background-color: #021639;
+}
+
+.nav-text {
+    color: white;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    padding-right: 64px;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+#banner {
+    background-image: url(../images/banner.png);
+    width: 100%;
+    height: 400px;
+}
+
+#p1 {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 0px;
+}
+
+#cat-post {
+    height: 20px;
+    width: 80px;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+/* content-body */
+
+.bg-image1 {
+    width: 100%;
+    height: 300px;
+}
+
+.bg-image2 {
+    width: 100%;
+    height: 400px;
+}
+
+.myHeading {
+    text-align: center;
+    font-size: 150px;
+    color: white;
+    padding-top: 30px;
+}
+
+.myHeading1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 30px;
+}
+
+.myHeading2 {
+    text-align: center;
+    font-size: 150px;
+    font-weight: bold;
+    color: white;
+    margin-top: -40px;
+}
+
+.myHeading3 {
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-top: -40px;
+}
+
+.images {
+    height: 80%;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.myText {
+    font-size: medium;
+    padding-top: 15px;
+}
+
+#i1 {
+    color: white;
+    font-size: 25px;
+}
+
+#naiv {
+    background-color: #0a2237;
+    height: 70px;
+}
+
+
+/* footer */
+
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: #0058a4;
+}
+
+.footer-txt {
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+
+.ftr-txt {
+    padding-top: 25px;
+}

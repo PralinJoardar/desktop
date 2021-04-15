@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="firstName" class="form-label">FirstName</label>
+            <input type="text" class="form-control inp-size" id="firstName" placeholder="Enter your First Name">
+        </div>
+        <div class="col-md-6">
+            <label for="lastName" class="form-label">LastName</label>
+            <input type="text" class="form-control inp-size" id="lastName" placeholder="Enter your Last Name">
+        </div>
+        <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input type="email" class="form-control inp-size" id="inputEmail" placeholder="Enter your Email">
+        </div>
+        <div class="col-md-6">
+            <label for="contactNumber" class="form-label">Contact Number</label>
+            <input type="number" class="form-control inp-size" id="contactNumber" placeholder="Enter your Contact Number">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress" class="form-label">Address 1</label>
+            <input type="text" class="form-control inp-size" id="inputAddress" placeholder="Enter your Address 1">
+        </div>
+        <div class="col-12">
+            <label for="inputAddress2" class="form-label">Address 2</label>
+            <input type="text" class="form-control inp-size" id="inputAddress2" placeholder="Enter your Address 2">
+        </div>
+        <div class="col-md-4">
+            <label for="inputCity" class="form-label">City</label>
+            <input type="text" class="form-control inp-size" id="inputCity" placeholder="City">
+        </div>
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">State</label>
+            <input type="text" class="form-control inp-size" id="inputCity" placeholder="State">
+        </div>
+        <div class="col-md-4">
+            <label for="inputZip" class="form-label">Zip Code</label>
+            <input type="number" class="form-control inp-size" id="inputZipCode" placeholder="Zip Code">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+            <textarea class="form-control msg-size inp-size" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Upload Documents</label>
+        </div>
+        <div class="col-1">
+            <button type="submit" class="btn btn-success btn-size">Submit</button>
+        </div>
+        <div class="col-1">
+            <button type="reset" class="btn btn-warning btn-size">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>

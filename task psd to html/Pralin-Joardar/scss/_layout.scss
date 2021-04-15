@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Conv_TitilliumWeb-Regular";
+  src: url("../assets/fonts/TitilliumWeb-Regular.eot");
+  src: local("☺"),
+    url("../assets/fonts/TitilliumWeb-Regular.woff") format("woff"),
+    url("../assets/fonts/TitilliumWeb-Regular.ttf") format("truetype"),
+    url("../assets/fonts/TitilliumWeb-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: "Conv_TitilliumWeb-Regular";
+}
+.nav-bar {
+  background-color: $primarybodycolor;
+  width: 100%;
+  height: 110px;
+
+  .logo {
+    padding-top: 35px;
+    margin-left: 209px;
+    height: 36.28px;
+    width: 116.41px;
+    @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+      margin-left: 0px;
+      height: 28px;
+      width: 90px;
+    }
+    @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+      margin-left: 0px;
+      height: 28px;
+      width: 50px;
+    }
+  }
+  .nav-menu {
+    padding-top: 7px;
+    @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+      padding-top: 0px;
+    }
+    ul {
+      list-style-type: none;
+      margin-right: 20px;
+      text-align: right;
+      margin-right: 0px;
+      color: $primarytxtcolor;
+      font-size: 16px;
+      
+      @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+        font-size: 12px;
+      }
+      @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+        font-size: 9px;
+        margin-right: 0px;
+      }
+      li {
+        .home-navlink {
+          padding: 10px 5px;
+          border-bottom: 5px;
+          border-color: $primarytxtcolor;
+          border-style: solid;
+          border-top: 0;
+          border-left: 0;
+          border-right: 0;
+          @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+            display: block;
+            padding: 0px 0px;
+            border-style: none;
+            border-bottom: 0px;
+          }
+        }
+        display: inline;
+        margin-right: 45px;
+        @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+          display: block;
+          padding: 0px 0px;
+          border-style: none;
+        }
+      }
+    }
+  }
+}
+.first-main-div {
+  @include main-div(502px, $firstmaindivbg);
+  .hero-content {
+    font-size: 42px;
+    text-align: center;
+    color: $primarytxtcolor;
+    padding-top: 120px;
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
+      "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+      font-size: 19px;
+    }
+    @media (max-width: $breakpoint3-maxwidth) and (min-width: $breakpoint3-minwidth) {
+      font-size: 38px;
+    }
+    @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+      font-size: 28px;
+    }
+  }
+  .btn-1 {
+    @include btn($primarytxtcolor, $firstmaindivbg);
+  }
+}
+.second-main-div {
+  @include main-div(747px, $secondmaindivbg);
+  @include heading($primarytxtcolor);
+  @include cards($secondmaindivbg, $primarytxtcolor);
+}
+.third-main-div {
+  @include main-div(914px, $thirdmaindivbg);
+  @include heading($secondarytxtcolor);
+  @include cards($thirdmaindivbg, $secondarytxtcolor);
+  .card-subtitle {
+    color: $txtblue;
+    font-size: 16px;
+    padding-bottom: 10px;
+    @media (max-width: $breakpoint3-maxwidth) and (min-width: $breakpoint3-minwidth) {
+      font-size: 12px;
+    }
+    @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+      font-size: 8px;
+    }
+    @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+      font-size: 4px;
+    }
+  }
+  .third-contact {
+    @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+      height: 20px;
+      width: 60px;
+    }
+    @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+      height: 10px;
+      width: 30px;
+    }
+  }
+}
+.fourth-main-div {
+  @include main-div(801px, $fourthmaindivbg);
+  @include heading($primarytxtcolor);
+  .form-div {
+    margin-top: 70px;
+    input {
+      margin-right: 30px;
+      width: 414px;
+      height: 56px;
+      background-color: $primarytxtcolor;
+      border: 0;
+      border-radius: 4px;
+      color: $primarytxtcolor;
+      @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+        margin-bottom: 50px;
+      }
+      @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+        width: 300px;
+        margin-bottom: 50px;
+      }
+    }
+    ::placeholder {
+      color: #000000;
+      padding: 20px;
+    }
+    textarea {
+      margin-right: 30px;
+      margin-top: 30px;
+      width: 860px;
+      height: 200px;
+      background-color: $primarytxtcolor;
+      border: 0;
+      border-radius: 4px;
+      color: $primarytxtcolor;
+      @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+        width: 62%;
+        height: 50%;
+      }
+      @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+        width: 300px;
+        height: 20%;
+      }
+    }
+    .btn-2 {
+      @include btn($firstmaindivbg, $primarytxtcolor);
+    }
+  }
+}
+.hr-line {
+  height: 2px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.footer-main-div {
+  @include main-div(112px, $fourthmaindivbg);
+  .footer-icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    position: relative;
+    padding-top: 26px;
+    @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+      width: 90%;
+    }
+    @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+      width: 90%;
+    }
+  }
+}

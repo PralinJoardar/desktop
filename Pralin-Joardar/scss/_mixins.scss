@@ -1,0 +1,7 @@
+@mixin buttons() {
+  background-color: #1d1d1d;
+  border-top: $bodyPrimaryTextColor;
+  padding: 12px 25px;
+  border-width: 2px;
+  color: $bodyPrimaryTextColor;
+}

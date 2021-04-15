@@ -1,0 +1,124 @@
+@mixin main-div($height, $bgcolor) {
+  width: 1440px;
+  height: $height;
+  background-color: $bgcolor;
+}
+@mixin btn($bgcolor, $txtcolor) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin-top: 50px;
+  text-align: center;
+  color: $txtcolor;
+  background-color: $bgcolor;
+  border-color: $bgcolor;
+  padding: 15px 40px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+    font-size: 12px;
+    width: 60%;
+  }
+  @media (max-width: $breakpoint3-maxwidth) and (min-width: $breakpoint3-minwidth) {
+    font-size: 16px;
+  }
+  @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+    font-size: 14px;
+    width: 30%;
+  }
+}
+@mixin heading($txtcolor) {
+  .heading {
+    color: $txtcolor;
+    font-size: 40px;
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .line-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 6%;
+    margin-top: -20px;
+  }
+  .sub-heading {
+    color: $txtcolor;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+  }
+}
+@mixin cards($bgcolor, $txtcolor) {
+  .cards {
+    text-align: center;
+    color: $txtcolor;
+    padding-top: 60px;
+    display: flex;
+    margin: auto;
+    width: 70%;
+    
+    .card {
+      background-color: $bgcolor;
+      border: 0;
+      padding-right: 50px;
+      @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+        padding-right: 0px;
+      }
+      @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+        padding-right: 0px;
+      }
+      .card-image-top {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        @media (max-width: $breakpoint3-maxwidth) and (min-width: $breakpoint3-minwidth) {
+          height: 120px;
+          width: 120px;
+        }
+        @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+          height: 20px;
+          width: 20px;
+        }
+        @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+          height: 60px;
+          width: 60px;
+        }
+      }
+      .card-title {
+        font-size: 24px;
+        font-weight: bold;
+        @media (max-width: $breakpoint3-maxwidth) and (min-width: $breakpoint3-minwidth) {
+          font-size: 15px;
+        }
+        @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+          font-size: 10px;
+        }
+        @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+          font-size: 4px;
+        }
+        @media (max-width: $breakpoint5-maxwidth) and (min-width: $breakpoint5-minwidth) {
+          font-size: 20px;
+        }
+      }
+      .card-text {
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        @media (max-width: $breakpoint3-maxwidth) and (min-width: $breakpoint3-minwidth) {
+          font-size: 14px;
+        }
+        @media (max-width: $breakpoint2-maxwidth) and (min-width: $breakpoint2-minwidth) {
+          font-size: 12px;
+        }
+        @media (max-width: $breakpoint4-maxwidth) and (min-width: $breakpoint4-minwidth) {
+          font-size: 6px;
+        }
+      }
+    }
+  }
+}

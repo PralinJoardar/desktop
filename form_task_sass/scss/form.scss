@@ -1,0 +1,186 @@
+@import "globals";
+@media screen and (max-width: 2000px) {
+  .Main {
+    background-color: $bgcolor;
+    width: 600px;
+    height: 830px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: auto;
+    .MainHead {
+      color: $color;
+      text-align: $cen;
+      padding-top: 60px;
+    }
+    .MainPara {
+      color: $color;
+      text-align: $cen;
+      padding: 0 80px;
+      font-size: 17px;
+    }
+    .Form {
+      margin-top: 80px;
+      .firstTwo {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-bottom: 30px;
+        margin-left: 20px;
+
+        .yourname {
+          color: $color;
+
+          .yournameinput {
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: $white;
+            background: transparent;
+            width: 250px;
+          }
+        }
+        .Contactnumber {
+          color: $color;
+          .Contactnumberinput {
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: $white;
+            background: transparent;
+            width: 250px;
+          }
+        }
+      }
+      .Second {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        .Email {
+          color: $color;
+          .Emailinput {
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: $white;
+            background: transparent;
+            width: 250px;
+          }
+        }
+        .country {
+          color: $color;
+          .countryinput {
+            outline: 0;
+            border-width: 0 0 2px;
+            border-color: $white;
+            background: transparent;
+            width: 250px;
+          }
+        }
+      }
+
+      .require {
+        padding-left: 20px;
+        color: $color;
+
+        .requireinput {
+          outline: 0;
+          border-width: 0 0 2px;
+          border-color: $white;
+          background: transparent;
+
+          width: 540px;
+          height: 50px;
+        }
+      }
+      .buttons {
+        margin-top: 30px;
+
+        .left {
+          float: left;
+          background: transparent;
+          border: 2px dotted $color;
+          padding: 20px;
+          color: $color;
+          border-radius: 5px;
+        }
+        .right {
+          float: right;
+          margin-right: 30px;
+          font-size: 15px;
+          width: 223px;
+          padding: 20px;
+          background-color:$yellow;
+          border-radius: 5px;
+        }
+      }
+    }
+    .para {
+      margin-top: 150px;
+      font-size: 13px;
+      color: $col;
+      text-align: center;
+      padding: 0 60px;
+
+      margin-right: 20px;
+    }
+    .imagesdata {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      width: 90%;
+      margin: auto;
+      margin-top: 60px;
+
+      .icons {
+        display: flex;
+
+        .image1 {
+          width: 30%;
+        }
+        .india {
+          margin-left: 10px;
+          font-size: 15px;
+          color: $col;
+        }
+      }
+      .icons2 {
+        display: flex;
+
+        .image2 {
+          width: 30%;
+        }
+        .UK {
+          margin-left: 10px;
+          font-size: 15px;
+          color: $col;
+        }
+      }
+      .icons3 {
+        display: flex;
+
+        .image3 {
+          width: 30%;
+        }
+        .USA {
+          margin-left: 10px;
+          font-size: 15px;
+          color: $col;
+        }
+      }
+      .icons4 {
+        display: flex;
+
+        .image4 {
+          width: 30%;
+        }
+        .AUS {
+          margin-left: 10px;
+          font-size: 15px;
+          color: $col;
+        }
+      }
+    }
+  }
+}
+.req-btn {
+  border-radius: 40px;
+  border-style: solid;
+  border-color: $yellow;
+}

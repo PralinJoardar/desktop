@@ -1,0 +1,66 @@
+[
+  {
+    "id": "1",
+    "name": "Mr.A",
+    "age": "20",
+    "profession": "Engineer",
+    "relatives": [
+      {
+        "id": "4"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Mr.B",
+    "age": "20",
+    "profession": "Doctor",
+    "relatives": [
+      {
+        "id": "4"
+      },
+      {
+        "id": "3"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Mr.C",
+    "age": "20",
+    "profession": "Accountant",
+    "relatives": [
+      {
+        "id": "2"
+      },
+      {
+        "id": "5"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Mr.D",
+    "age": "20",
+    "profession": "Manager",
+    "relatives": [
+      {
+        "id": "1"
+      },
+      {
+        "id": "2"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Mr.E",
+    "age": "20",
+    "profession": "Chef",
+    "relatives": [
+      {
+        "id": "3"
+      }
+    ]
+  }
+]

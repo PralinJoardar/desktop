@@ -1,0 +1,20 @@
+body {
+  color: black;
+  background-color: #ffd5dd;
+  font-size: 30px;
+}
+
+#para1 {
+  color: green;
+}
+
+#para2 {
+  color: black;
+}
+
+#para3, #para4 {
+  color: grey;
+  font-size: 60px;
+  font-weight: bold;
+}
+/*# sourceMappingURL=index.css.map */

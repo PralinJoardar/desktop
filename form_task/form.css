@@ -1,0 +1,26 @@
+body {
+    font-size: 18px;
+}
+
+.inp-size {
+    width: 100%;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    font-size: 18px;
+}
+
+.msg-size {
+    height: 80px;
+}
+
+.btn-size {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+@media (max-width: 700px){
+ body {
+     background-color:  blanchedalmond
+     }
+}

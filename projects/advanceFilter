@@ -1,0 +1,91 @@
+import { Fragment, useState } from "react"
+import { Button } from "reactstrap"
+import { Filter } from "react-feather"
+import Modal from "reactstrap/lib/Modal"
+import Select from 'react-select'
+import ModalHeader from "reactstrap/lib/ModalHeader"
+import ModalBody from "reactstrap/lib/ModalBody"
+import Label from "reactstrap/lib/Label"
+import ModalFooter from "reactstrap/lib/ModalFooter"
+import CreatableSelect from 'react-select/creatable'
+import Col from "reactstrap/lib/Col"
+
+const AdvanceFilter = () => {
+  const [formModal, setFormModal] = useState(false)
+  const [dropdownOpen, setDropdownOpen] = useState(false)
+//   const [value, setValue] = useState('Select members')
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen)
+  }
+
+  const time = [
+  { value: 'Normal', label: 'Normal', color: '#00B8D9', isFixed: true },
+  { value: 'Idle', label: 'Idle', color: '#0052CC', isFixed: true },
+  { value: 'Resumed', label: 'Resumed', color: '#5243AA', isFixed: true },
+  { value: 'Manual', label: 'Manual', color: '#FF5630', isFixed: false }
+]
+  const source = [
+  { value: 'Desktop', label: 'Desktop', color: '#00B8D9', isFixed: true },
+  { value: 'Mobile', label: 'Mobile', color: '#0052CC', isFixed: true },
+  { value: 'Browser', label: 'Browser', color: '#5243AA', isFixed: true } 
+]
+  const activity = [
+    { value: '> 80%', label: '> 80%', color: '#00B8D9', isFixed: true },
+    { value: '> 60%', label: '> 60%', color: '#0052CC', isFixed: true },
+    { value: '> 40%', label: '> 40%', color: '#5243AA', isFixed: true },
+    { value: '> 20%', label: '> 20%', color: '#5243AA', isFixed: true }
+  ]
+
+  return (
+    <Fragment>
+      <div className="m-lt-rt-15 advance-filter">
+        <Button.Ripple onClick={() => setFormModal(!formModal)}>
+          <Filter size={22} />
+          <span className="align-middle ml-25"></span>
+        </Button.Ripple>
+        <Modal
+          isOpen={formModal}
+          toggle={() => setFormModal(!formModal)}
+          className="modal-dialog-centered"
+        >
+          <ModalHeader toggle={() => setFormModal(!formModal)}>
+            Filter
+          </ModalHeader>
+          <ModalBody>
+
+            <Col className='mb-1' md='6' sm='12'>
+            <Label>Time</Label>
+            <CreatableSelect options={time} className='react-select' classNamePrefix='select' />
+            {console.log("time", time.map(value => value))}
+          </Col>
+          <Col className='mb-1' md='6' sm='12'>
+            <Label>Source</Label>
+            <Select
+              options={source}
+              className='react-select'
+              classNamePrefix='select'
+            />
+          </Col>
+
+          <Col className='mb-1' md='6' sm='12'>
+            <Label>Activity</Label>
+            <CreatableSelect options={activity} className='react-select' classNamePrefix='select' />
+          </Col>
+          </ModalBody>
+          <ModalFooter>
+            <Button color="primary" onClick={() => setFormModal(!formModal)}>
+              Apply Filters
+            </Button>{" "}
+            <Button onClick={() => setFormModal(!formModal)}>
+              Clear
+            </Button>{" "}
+          </ModalFooter>
+        </Modal>
+      </div>
+    </Fragment>
+  )
+}
+
+export default AdvanceFilter
+

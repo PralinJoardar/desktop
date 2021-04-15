@@ -1,0 +1,189 @@
+@media screen and (max-width: 2000px) {
+  .Main {
+    background-color: #2f2f2d;
+    width: 600px;
+    height: 830px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: auto;
+  }
+  .Main .MainHead {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+  }
+  .Main .MainPara {
+    color: white;
+    text-align: center;
+    padding: 0 80px;
+    font-size: 17px;
+  }
+  .Main .Form {
+    margin-top: 80px;
+  }
+  .Main .Form .firstTwo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    margin-bottom: 30px;
+    margin-left: 20px;
+  }
+  .Main .Form .firstTwo .yourname {
+    color: white;
+  }
+  .Main .Form .firstTwo .yourname .yournameinput {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: white;
+    background: transparent;
+    width: 250px;
+  }
+  .Main .Form .firstTwo .Contactnumber {
+    color: white;
+  }
+  .Main .Form .firstTwo .Contactnumber .Contactnumberinput {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: white;
+    background: transparent;
+    width: 250px;
+  }
+  .Main .Form .Second {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  .Main .Form .Second .Email {
+    color: white;
+  }
+  .Main .Form .Second .Email .Emailinput {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: white;
+    background: transparent;
+    width: 250px;
+  }
+  .Main .Form .Second .country {
+    color: white;
+  }
+  .Main .Form .Second .country .countryinput {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: white;
+    background: transparent;
+    width: 250px;
+  }
+  .Main .Form .require {
+    padding-left: 20px;
+    color: white;
+  }
+  .Main .Form .require .requireinput {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: white;
+    background: transparent;
+    width: 540px;
+    height: 50px;
+  }
+  .Main .Form .buttons {
+    margin-top: 30px;
+  }
+  .Main .Form .buttons .left {
+    float: left;
+    background: transparent;
+    border: 2px dotted white;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+  }
+  .Main .Form .buttons .right {
+    float: right;
+    margin-right: 30px;
+    font-size: 15px;
+    width: 223px;
+    padding: 20px;
+    background-color: #ffbd24;
+    border-radius: 5px;
+  }
+  .Main .para {
+    margin-top: 150px;
+    font-size: 13px;
+    color: #a7a7a0;
+    text-align: center;
+    padding: 0 60px;
+    margin-right: 20px;
+  }
+  .Main .imagesdata {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .Main .imagesdata .icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Main .imagesdata .icons .image1 {
+    width: 30%;
+  }
+  .Main .imagesdata .icons .india {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #a7a7a0;
+  }
+  .Main .imagesdata .icons2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Main .imagesdata .icons2 .image2 {
+    width: 30%;
+  }
+  .Main .imagesdata .icons2 .UK {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #a7a7a0;
+  }
+  .Main .imagesdata .icons3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Main .imagesdata .icons3 .image3 {
+    width: 30%;
+  }
+  .Main .imagesdata .icons3 .USA {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #a7a7a0;
+  }
+  .Main .imagesdata .icons4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Main .imagesdata .icons4 .image4 {
+    width: 30%;
+  }
+  .Main .imagesdata .icons4 .AUS {
+    margin-left: 10px;
+    font-size: 15px;
+    color: #a7a7a0;
+  }
+}
+
+.req-btn {
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #ffbd24;
+}
+/*# sourceMappingURL=form.css.map */
